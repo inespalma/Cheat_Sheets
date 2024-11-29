@@ -1,6 +1,6 @@
 | JavaScript Methods | Description                             | Example                         | Example Output                  |                
 |-------------------|------------------------------------------|---------------------------------|---------------------------------|
-| [`Math.floor()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) | `Math.floor()`   | Rounds Down                               | Math.floor(4.7)                 | Output: 4                       |
+| [`Math.floor()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) | Rounds Down | `Math.floor(4.7)`                 | `Output: 4`                       |
 | [`Math.round()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round) | Rounds Up & Down based on decimal | `Math.round(4.5)`               | `Output: 5`                     |
 | [`Math.ceil()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)  | Round Up                         | `Math.ceil(4.3)`                | `Output: 5`                     |
 | [`Math.PI`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/PI)        | Returns the value of Pi          | `Math.PI`                       | `Output: 3.141592653589793`     |
