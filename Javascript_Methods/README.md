@@ -1,4 +1,4 @@
-# JavaScript Methods (Categorized)
+# JavaScript Methods
 
 ## **Array Methods**
 
