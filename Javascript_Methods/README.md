@@ -1,6 +1,6 @@
 # JavaScript Methods
 
-## **Array Methods**
+## :roller_coaster: **Array Methods**
 
 | JavaScript Method                                                                                                     | Description                                                                                      | Example                                                            | Example Output               |
 | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ---------------------------- |
@@ -21,22 +21,7 @@
 
 ---
 
-## **Date Methods**
-
-| JavaScript Method                                                                                                    | Description                                                               | Example                    | Example Output                        |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------- | ------------------------------------- |
-| [`getDay()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)            | Returns the day of the week (0-6) from a Date object                      | `new Date().getDay()`      | `Output: day of the week (0-6)`       |
-| [`getFullYear()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear) | Returns the four-digit year (e.g., 2024) from a Date object               | `new Date().getFullYear()` | `Output: 2024`                        |
-| [`getMonth()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth)       | Returns the month (0-11) from a Date object                               | `new Date().getMonth()`    | `Output: month index (0-11)`          |
-| [`getTime()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)           | Returns the time in milliseconds since the Unix Epoch                     | `new Date().getTime()`     | `Output: timestamp in ms`             |
-| [`new Date()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)              | Creates a new Date object representing the current date and time          | `new Date()`               | `Output: current date and time`       |
-| [`parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round)             | Parses a date string into the number of milliseconds since the Unix Epoch | `Date.parse("2024-12-04")` | `Output: 1701676800000`               |
-| [`setDate()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate)         | Sets the day of the month (1-31) for a Date object                        | `new Date().setDate(15)`   | `Output: new date with updated day`   |
-| [`setMonth()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth)       | Sets the month (0-11) for a Date object                                   | `new Date().setMonth(5)`   | `Output: new date with updated month` |
-
----
-
-## **Number Methods**
+## :1234: Number Methods
 
 | JavaScript Method                                                                                             | Description                                                 | Example                    | Example Output              |
 | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------- | --------------------------- |
@@ -52,7 +37,7 @@
 
 ---
 
-## **String Methods**
+## :pencil2: **String Methods**
 
 | JavaScript Method                                                                                                      | Description                                        | Example                            | Example Output                          |
 | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------- | --------------------------------------- |
@@ -66,3 +51,55 @@
 | [`toString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString)       | Converts a value to a string                       | `(123).toString()`                 | `Output: "123"`                         |
 | [`toUpperCase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase) | Converts a string to Uppercase                     | `"hello".toUpperCase()`            | `Output: "HELLO"`                       |
 | [`trim()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)               | Removes whitespace from both ends of a string      | `"  Hello  ".trim()`               | `Output: "Hello"`                       |
+
+---
+
+## :date: **Date Methods**
+
+| **Method**                                                                                                           | **Description**                                                           | **Example**                | **Output**                            |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | -------------------------- | ------------------------------------- |
+| [`Date.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse)        | Parses a date string into the number of milliseconds since the Unix Epoch | `Date.parse("2024-12-04")` | `Output: 1701676800000`               |
+| [`getDate()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate)         | Returns the day of the month from a Date Object                           | `new Date().getDate()`     | `Output: day of the month (1-31)`     |
+| [`getDay()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay)           | Returns the day of the week (0-6) from a Date object                      | `new Date().getDay()`      | `Output: day of the week (0-6)`       |
+| [`getFullYear()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear) | Returns the four-digit year (e.g., 2024) from a Date object               | `new Date().getFullYear()` | `Output: 2024`                        |
+| [`getMonth()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth)       | Returns the month (0-11) from a Date object                               | `new Date().getMonth()`    | `Output: month index (0-11)`          |
+| [`getTime()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)         | Returns the time in milliseconds since the Unix Epoch                     | `new Date().getTime()`     | `Output: timestamp in ms`             |
+| [`new Date()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)                | Creates a new Date object representing the current date and time          | `new Date()`               | `Output: current date and time`       |
+| [`setDate()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate)         | Sets the day of the month (1-31) for a Date object                        | `new Date().setDate(15)`   | `Output: new date with updated day`   |
+| [`setMonth()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth)       | Sets the month (0-11) for a Date object                                   | `new Date().setMonth(5)`   | `Output: new date with updated month` |
+---
+## Time - Local Time Methods / UTC Time Methods
+
+| **Date Type**       | **Description**                                                   | **Example Method**            | **Example Output**                        |
+| ------------------- | ----------------------------------------------------------------- | ----------------------------- | ----------------------------------------- |
+| `Local Time`        | Represents the date and time based on the user's local timezone.  | `new Date().toString()`       | `Mon Dec 09 2024 12:34:56 GMT+0000 (UTC)` |
+| `UTC Time`          | Represents the date and time in Coordinated Universal Time (UTC). | `new Date().toUTCString()`    | `Mon, 09 Dec 2024 12:34:56 GMT`           |
+| `ISO 8601 Format`   | Standardized date format used across systems, always in UTC.      | `new Date().toISOString()`    | `2024-12-09T12:34:56.789Z`                |
+| `Locale-based Time` | Represents date and time formatted based on the user's locale.    | `new Date().toLocaleString()` | `12/9/2024, 12:34:56 PM`                  |
+
+#### **Local Time Methods**
+
+| **Method**          | **Description**                                                   | **Example**                    | **Output**                                |
+| ------------------- | ----------------------------------------------------------------- | ------------------------------ | ----------------------------------------- |
+| `toString()`        | Converts to a string in the local time zone                       | `new Date().toString()`        | `Mon Dec 09 2024 12:34:56 GMT+0000 (UTC)` |
+| `toLocaleString()`  | Formats date and time according to the user's locale and timezone | `new Date().toLocaleString()`  | `12/9/2024, 12:34:56 PM`                  |
+| `getHours()`        | Gets the hours in local time                                      | `new Date().getHours()`        | `12`                                      |
+| `getMinutes()`      | Gets the minutes in local time                                    | `new Date().getMinutes()`      | `34`                                      |
+| `getSeconds()`      | Gets the seconds in local time                                    | `new Date().getSeconds()`      | `56`                                      |
+| `getMilliseconds()` | Gets the milliseconds in local time                               | `new Date().getMilliseconds()` | `789`                                     |
+
+#### **UTC Time Methods**
+
+| **Method**             | **Description**                       | **Example**                       | **Output**                 |
+| ---------------------- | ------------------------------------- | --------------------------------- | -------------------------- |
+| `toISOString()`        | Converts to ISO 8601 format, in UTC   | `new Date().toISOString()`        | `2024-12-09T12:34:56.789Z` |
+| `getUTCFullYear()`     | Gets the year in UTC time             | `new Date().getUTCFullYear()`     | `2024`                     |
+| `getUTCMonth()`        | Gets the month in UTC time            | `new Date().getUTCMonth()`        | `11`                       |
+| `getUTCDate()`         | Gets the day of the month in UTC time | `new Date().getUTCDate()`         | `9`                        |
+| `getUTCDay()`          | Gets the day of the week in UTC time  | `new Date().getUTCDay()`          | `1`                        |
+| `getUTCHours()`        | Gets the hours in UTC time            | `new Date().getUTCHours()`        | `12`                       |
+| `getUTCMinutes()`      | Gets the minutes in UTC time          | `new Date().getUTCMinutes()`      | `34`                       |
+| `getUTCSeconds()`      | Gets the seconds in UTC time          | `new Date().getUTCSeconds()`      | `56`                       |
+| `getUTCMilliseconds()` | Gets the milliseconds in UTC time     | `new Date().getUTCMilliseconds()` | `789`                      |
+
+ 
